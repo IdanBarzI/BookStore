@@ -1,0 +1,73 @@
+﻿<UserControl x:Class="BookStore.Views.ResultsDataGrid"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:system="clr-namespace:System;assembly=mscorlib"
+             xmlns:local="clr-namespace:BookStore.Views"
+             mc:Ignorable="d" 
+             x:Name="_window"
+             DataContext="{Binding Source={StaticResource Locator},Path=ReportViewModel}">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal">
+            <ComboBox Style="{StaticResource MaterialDesignFloatingHintComboBox}"
+                          ItemsSource="{Binding SelectedProduct, Converter={StaticResource EnumToCollectionConverter}, Mode=OneTime}"
+                          SelectedValuePath="Value"
+                          DisplayMemberPath="Description"
+                          SelectedValue="{Binding SelectedProduct, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"
+                          materialDesign:ValidationAssist.HasError="True"
+                          materialDesign:ValidationAssist.Background="Transparent"
+                          materialDesign:ValidationAssist.FontSize="12"
+                          materialDesign:HintAssist.Hint="Product"/>
+
+            <ComboBox Style="{StaticResource MaterialDesignFloatingHintComboBox}"
+                          ItemsSource="{Binding ProductPropNames,  Mode=OneWay}"
+                          SelectedValue="{Binding SelectedProp, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"
+                          materialDesign:ValidationAssist.HasError="True"
+                          materialDesign:ValidationAssist.Background="Transparent"
+                          materialDesign:ValidationAssist.FontSize="12"
+                          materialDesign:HintAssist.Hint="Method"/>
+
+            <TextBox FlowDirection="RightToLeft" Text="{Binding Search, UpdateSourceTrigger=PropertyChanged}"
+                     Style="{StaticResource MaterialDesignFloatingHintTextBox}" materialDesign:HintAssist.Hint="Search🔍" Width="300"/>
+
+        </StackPanel>
+        <DataGrid Style="{StaticResource FoodsGrid}" ItemsSource="{Binding ProductsToShow}" Margin="0" AutoGeneratingColumn="OnAutoGeneratingColumn" IsReadOnly="True" Grid.Row ="1">
+            <DataGrid.Columns>
+                <DataGridTemplateColumn>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBox x:Name="QuntityTextBox" Style="{StaticResource MaterialDesignDataGridTextColumnEditingStyle}"
+                         Text="{Binding DataContext.QuntityToRemove, ElementName=_window, UpdateSourceTrigger=PropertyChanged}"
+                         materialDesign:ValidationAssist.HasError="True"
+                         materialDesign:ValidationAssist.Background="Transparent"
+                         materialDesign:ValidationAssist.FontSize="12"
+                         materialDesign:HintAssist.Hint="Reduce By"
+                         materialDesign:TextFieldAssist.HasLeadingIcon="True"
+                         materialDesign:TextFieldAssist.LeadingIcon="Account">
+                                </TextBox>
+                                <Button Background="{StaticResource Remove.Background}"
+                                        Width="50"
+                                        Command="{Binding DataContext.RemoveFromProductsCommand, ElementName=_window}"
+                                        CommandParameter="{Binding}" >
+                                    <Button.Content>
+                                        <materialDesign:PackIcon Kind="CloseCircle" 
+                                                                 Foreground="{StaticResource PrimaryHueDarkForegroundBrush}"/>
+                                    </Button.Content>
+                                </Button>
+                            </StackPanel>
+                            
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</UserControl>

@@ -1,0 +1,12 @@
+E:\VS\Daimond\BookStore\BookStore.Domain\obj\Debug\net5.0-windows\BookStore.Domain.csproj.AssemblyReference.cache
+E:\VS\Daimond\BookStore\BookStore.Domain\obj\Debug\net5.0-windows\BookStore.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\VS\Daimond\BookStore\BookStore.Domain\obj\Debug\net5.0-windows\BookStore.Domain.AssemblyInfoInputs.cache
+E:\VS\Daimond\BookStore\BookStore.Domain\obj\Debug\net5.0-windows\BookStore.Domain.AssemblyInfo.cs
+E:\VS\Daimond\BookStore\BookStore.Domain\obj\Debug\net5.0-windows\BookStore.Domain.csproj.CoreCompileInputs.cache
+E:\VS\Daimond\BookStore\BookStore.Domain\bin\Debug\net5.0-windows\BookStore.Domain.deps.json
+E:\VS\Daimond\BookStore\BookStore.Domain\bin\Debug\net5.0-windows\BookStore.Domain.dll
+E:\VS\Daimond\BookStore\BookStore.Domain\bin\Debug\net5.0-windows\ref\BookStore.Domain.dll
+E:\VS\Daimond\BookStore\BookStore.Domain\bin\Debug\net5.0-windows\BookStore.Domain.pdb
+E:\VS\Daimond\BookStore\BookStore.Domain\obj\Debug\net5.0-windows\BookStore.Domain.dll
+E:\VS\Daimond\BookStore\BookStore.Domain\obj\Debug\net5.0-windows\ref\BookStore.Domain.dll
+E:\VS\Daimond\BookStore\BookStore.Domain\obj\Debug\net5.0-windows\BookStore.Domain.pdb

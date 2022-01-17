@@ -1,0 +1,17 @@
+E:\VS\Daimond\BookStore\BookStore.Services\bin\Debug\net5.0-windows\BookStore.Services.deps.json
+E:\VS\Daimond\BookStore\BookStore.Services\bin\Debug\net5.0-windows\BookStore.Services.dll
+E:\VS\Daimond\BookStore\BookStore.Services\bin\Debug\net5.0-windows\ref\BookStore.Services.dll
+E:\VS\Daimond\BookStore\BookStore.Services\bin\Debug\net5.0-windows\BookStore.Services.pdb
+E:\VS\Daimond\BookStore\BookStore.Services\obj\Debug\net5.0-windows\BookStore.Services.csproj.AssemblyReference.cache
+E:\VS\Daimond\BookStore\BookStore.Services\obj\Debug\net5.0-windows\BookStore.Services.GeneratedMSBuildEditorConfig.editorconfig
+E:\VS\Daimond\BookStore\BookStore.Services\obj\Debug\net5.0-windows\BookStore.Services.AssemblyInfoInputs.cache
+E:\VS\Daimond\BookStore\BookStore.Services\obj\Debug\net5.0-windows\BookStore.Services.AssemblyInfo.cs
+E:\VS\Daimond\BookStore\BookStore.Services\obj\Debug\net5.0-windows\BookStore.Services.csproj.CoreCompileInputs.cache
+E:\VS\Daimond\BookStore\BookStore.Services\obj\Debug\net5.0-windows\BookStore.Services.dll
+E:\VS\Daimond\BookStore\BookStore.Services\obj\Debug\net5.0-windows\ref\BookStore.Services.dll
+E:\VS\Daimond\BookStore\BookStore.Services\obj\Debug\net5.0-windows\BookStore.Services.pdb
+E:\VS\Daimond\BookStore\BookStore.Services\bin\Debug\net5.0-windows\BookStore.Domain.dll
+E:\VS\Daimond\BookStore\BookStore.Services\bin\Debug\net5.0-windows\BookStore.Infra.dll
+E:\VS\Daimond\BookStore\BookStore.Services\bin\Debug\net5.0-windows\BookStore.Domain.pdb
+E:\VS\Daimond\BookStore\BookStore.Services\bin\Debug\net5.0-windows\BookStore.Infra.pdb
+E:\VS\Daimond\BookStore\BookStore.Services\obj\Debug\net5.0-windows\BookStore.Services.csproj.CopyComplete

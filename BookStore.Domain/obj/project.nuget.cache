@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "kcOoxG/FcLa3IRZ523SvHIhfx7NjqLj0q8SrkGhPWDWxGQWMsB1VLoRIxh3yyMy54YRL4FVwwqdYaiTP11y2Bg==",
+  "success": true,
+  "projectFilePath": "E:\\VS\\Daimond\\BookStore\\BookStore.Domain\\BookStore.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\idan\\.nuget\\packages\\mvvmlightlibsstd10\\5.4.1.1\\mvvmlightlibsstd10.5.4.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

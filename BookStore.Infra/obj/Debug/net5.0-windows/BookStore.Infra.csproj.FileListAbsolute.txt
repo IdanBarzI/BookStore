@@ -1,0 +1,15 @@
+E:\VS\Daimond\BookStore\BookStore.Infra\obj\Debug\net5.0-windows\BookStore.Infra.csproj.AssemblyReference.cache
+E:\VS\Daimond\BookStore\BookStore.Infra\obj\Debug\net5.0-windows\BookStore.Infra.GeneratedMSBuildEditorConfig.editorconfig
+E:\VS\Daimond\BookStore\BookStore.Infra\obj\Debug\net5.0-windows\BookStore.Infra.AssemblyInfoInputs.cache
+E:\VS\Daimond\BookStore\BookStore.Infra\obj\Debug\net5.0-windows\BookStore.Infra.AssemblyInfo.cs
+E:\VS\Daimond\BookStore\BookStore.Infra\obj\Debug\net5.0-windows\BookStore.Infra.csproj.CoreCompileInputs.cache
+E:\VS\Daimond\BookStore\BookStore.Infra\bin\Debug\net5.0-windows\BookStore.Infra.deps.json
+E:\VS\Daimond\BookStore\BookStore.Infra\bin\Debug\net5.0-windows\BookStore.Infra.dll
+E:\VS\Daimond\BookStore\BookStore.Infra\bin\Debug\net5.0-windows\ref\BookStore.Infra.dll
+E:\VS\Daimond\BookStore\BookStore.Infra\bin\Debug\net5.0-windows\BookStore.Infra.pdb
+E:\VS\Daimond\BookStore\BookStore.Infra\bin\Debug\net5.0-windows\BookStore.Domain.dll
+E:\VS\Daimond\BookStore\BookStore.Infra\bin\Debug\net5.0-windows\BookStore.Domain.pdb
+E:\VS\Daimond\BookStore\BookStore.Infra\obj\Debug\net5.0-windows\BookStore.Infra.csproj.CopyComplete
+E:\VS\Daimond\BookStore\BookStore.Infra\obj\Debug\net5.0-windows\BookStore.Infra.dll
+E:\VS\Daimond\BookStore\BookStore.Infra\obj\Debug\net5.0-windows\ref\BookStore.Infra.dll
+E:\VS\Daimond\BookStore\BookStore.Infra\obj\Debug\net5.0-windows\BookStore.Infra.pdb
